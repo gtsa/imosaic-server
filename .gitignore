@@ -1,0 +1,21 @@
+# Ignore bundler config.
+.bundle
+
+# Ignore all environment files (except templates).
+/.env*
+!/.env*.erb
+
+# Ignore all logfiles and tempfiles in both directories.
+**/*.log
+**/tmp/*
+
+# Keep .keep files for empty directories
+!/api/tmp/.keep
+# !/frontend/tmp/.keep
+
+# Ignore PID files, but keep the directory.
+api/tmp/pids/*
+!/api/tmp/pids/
+!/api/tmp/pids/.keep
+
+
